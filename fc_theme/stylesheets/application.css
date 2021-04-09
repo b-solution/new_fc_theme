@@ -1,0 +1,102 @@
+/* load the default Redmine stylesheet */
+@import url(../../../stylesheets/application.css);
+@import "css/fonts.css";
+@import "css/header.css";
+@import "css/login.css";
+@import "css/issue.css";
+@import "css/sidebar.css";
+@import "css/common.css";
+@import "css/responsive.css";
+@import "css/collapzion.min.css";
+
+body {
+  font-family: DMSans-Regular, Verdana, sans-serif;
+}
+
+.bg-purple{
+  background-color: #FAFBFF !important;
+}
+
+.bg-white{
+  background-color: #FFF !important;
+}
+
+form {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+form input {
+
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+input[type='submit'] {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+input[type='submit']:hover {
+    cursor: pointer;
+
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    text-decoration: none;
+}
+input[type='submit'] {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+ul.projects{
+
+}
+ul.projects > li.root {
+    border-color: #e5e9ed;
+    border-radius: 10px;
+}
+a {
+    color: #07214c;
+}
+#header {
+  padding: 10px;
+}
+#content {
+  padding: 10px 0;
+}
+#main-menu {
+  position: relative;
+}

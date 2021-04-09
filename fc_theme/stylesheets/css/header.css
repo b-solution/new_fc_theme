@@ -1,0 +1,70 @@
+#top-menu a {color: #fff !important;}
+#top-menu{
+    background-color:#07214c;
+    background-image:url('../../images/fauntain-city-logo.png');
+    background-repeat:no-repeat;
+    background-position: 80px 26px;
+    background-size: auto 28px;
+    height: 75px;
+    font-family: DMSans-Medium, Verdana, sans-serif;
+    border-bottom: 4px solid #1EDEB5;
+    margin-bottom: 1rem;
+}
+#top-menu > ul  {
+    margin: 26px;
+    margin-left: 280px;
+    font-size: 18px;
+}
+#top-menu > ul > li {
+    margin-left:  30px;
+}
+
+/*#top-menu ul li a.selected{
+  padding-bottom: 19px;
+  background: none !important;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 9px solid #1EDEB5;
+}*/
+#top-menu #account{margin: 26px; font-size: 18px; margin-right: 107px; }
+
+#header { background-color: #fff; }
+
+#top-menu li { padding: 0px 6px 0px 0px; }
+
+.time-logger-menu {
+  border: 1px solid;
+  padding: .5rem .9rem;
+  border-radius: 1.5rem;
+}
+.breadcrumbs {
+  opacity: 0.6;
+  font-size: .8rem !important;
+  margin-bottom: 1rem;
+}
+.h-avatar {
+  background: #A718FE;
+  border-radius: 50%;
+  padding: 10px;
+  line-height: 1;
+  font-size: 1rem;
+  display: inline-flex;
+  text-decoration: none;
+  width: 1rem;
+  justify-content: center;
+}
+#top-menu .header-dropdown a {
+  color: #333;
+  display: block;
+}
+#top-menu .header-dropdown a:hover {
+  color: red;
+}
+#header .breadcrumbs a {
+  color: #0A224B !important;
+}
+.separator:last-child {
+  display: none !important;
+}

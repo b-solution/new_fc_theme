@@ -1,0 +1,10 @@
+#login-form{
+    width: 600px;
+    background-color: #fff;
+    border-color: #efefef;
+    border-radius: 10px !important;
+}
+
+#login-form form input {
+    height: calc(2.25rem + 15px) !important;
+}

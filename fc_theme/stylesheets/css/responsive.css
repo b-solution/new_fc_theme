@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+  .flyout-menu .flyout-menu__avatar {
+    display: none;
+  }
+  .search-magnifier--flyout {
+    line-height: 35px !important;
+  }
+  .time-logger-menu {
+    border: 0;
+    padding: 0 8px;
+  }
+  #content div.issue {
+    width: 100% !important;
+  }
+  #history {
+    width: 100% !important;
+  }
+  .splitcontentleft ul:nth-child(1) li {
+    display: list-item;
+  }
+  #content #update {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .splitcontentleft > div:not(.wiki, .mypage-box),
+  .splitcontentright > div:not(.wiki, .mypage-box) {
+    width: 30%;
+    float: left;
+    margin-right: 20px
+  }
+  .splitcontentright{
+    margin-left: 0
+  }
+}
